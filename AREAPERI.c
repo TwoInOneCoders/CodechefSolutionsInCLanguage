@@ -8,7 +8,7 @@
 int main()
 {
 	int l,b,c,p;
-	scabf("%d %d", &l, &b);
+	scanf("%d %d", &l, &b);
 	c=l*b;    //THIS IS AREA
 	p=2*(l+b);    //THIS IS PERI
 	if(p>c)
